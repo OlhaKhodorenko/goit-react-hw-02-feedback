@@ -1,0 +1,27 @@
+.feedbackOptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.feedbackOptions button {
+  cursor: pointer;
+  overflow: hidden;
+  border: transparent;
+  border-radius: 4px;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #95bef4;
+}
+.goodBtn:hover {
+  background-color: #68dd64;
+}
+.neutralBtn:hover {
+  background-color: #f4f295;
+}
+.badBtn:hover {
+  background-color: #f38279;
+}
