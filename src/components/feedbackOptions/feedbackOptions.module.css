@@ -1,10 +1,5 @@
-.feedbackOptions {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.feedbackOptions button {
+button {
+  text-transform: capitalize;
   cursor: pointer;
   overflow: hidden;
   border: transparent;
@@ -16,12 +11,16 @@
   color: #fff;
   background-color: #95bef4;
 }
-.goodBtn:hover {
+
+button:first-of-type:hover {
   background-color: #68dd64;
 }
-.neutralBtn:hover {
+button:last-of-type:hover {
+  background-color: #f38279;
+}
+button:hover {
   background-color: #f4f295;
 }
-.badBtn:hover {
+.badBtn {
   background-color: #f38279;
 }
